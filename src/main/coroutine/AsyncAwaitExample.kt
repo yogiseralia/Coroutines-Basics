@@ -7,6 +7,17 @@ import kotlinx.coroutines.runBlocking
 import kotlin.system.measureTimeMillis
 
 fun main() = runBlocking{
+
+//    val job = launch {
+//        val timeMillis = measureTimeMillis {
+//            doWork1()
+//            doWork2()
+//            println("result = ${doWork1() + doWork2()}")
+//        }
+//        println("Done in $timeMillis millis")
+//    }
+//    job.join()
+
     val job = launch {
         val timeMillis = measureTimeMillis {
             val deferred = async {
