@@ -10,8 +10,8 @@ To do this -
 **Using async Coroutine Builder-**
 
  - **launch** coroutine builder returns a job object. What **launch** doesn't do is return a data?
- - **async** coroutine builder returns a Deffered.
-   - Can use this later in your code (Like ``Future`` in java)
+ - **async** coroutine builder returns a [``Deffered``](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/).
+   - Can use this later in your code (Like [``Future``](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Future.html) in java)
    - Derives from Job
    
    
