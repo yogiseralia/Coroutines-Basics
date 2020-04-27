@@ -11,8 +11,8 @@ fun main(): Unit = runBlocking {
 //    doOneByOne();
 //    println(doWorkAsync("working"))
 //    val deferred = async { doWork1() }
-    val deferred = async(start = CoroutineStart.LAZY) { doWork1() }
-    log(deferred.await().toString())
+//    val deferred = async(start = CoroutineStart.LAZY) { doWork1() }
+//    log(deferred.await().toString())
 }
 
 private fun CoroutineScope.doWorkAsync(msg: String): Deferred<Int> = async {
