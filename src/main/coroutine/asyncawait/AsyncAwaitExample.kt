@@ -1,7 +1,6 @@
-package coroutine
+package coroutine.asyncawait
 
 import kotlinx.coroutines.*
-import kotlin.coroutines.CoroutineContext
 import kotlin.system.measureTimeMillis
 
 fun main(): Unit = runBlocking {
